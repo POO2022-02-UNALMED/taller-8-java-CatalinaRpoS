@@ -17,6 +17,7 @@ public class Jugador extends Futbolista{
 		this.dorsal = 7;
 	}
 	
+	@Override
 	public String toString() {
 		return "El futbolista " + super.getNombre() + " tiene " + String.valueOf(super.getEdad())
 		+ ", y juega de " + super.getPosicion() + " con el dorsal " + this.dorsal + 
@@ -35,7 +36,6 @@ public class Jugador extends Futbolista{
 
 	@Override
 	public boolean jugarConLasManos() {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
